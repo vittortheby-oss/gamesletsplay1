@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Прохождения игр — Ruban</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Прохождения игр Ruban</h1>
+  <nav>
+    <a href="index.html" class="active">Главная</a>
+    <a href="#games">Игры</a>
+    <a href="#about">Обо мне</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<main>
+  <section id="hero">
+    <h2>Погрузись в атмосферу лучших игр</h2>
+    <p>Прохождения с комментариями, секретами и кинематографичной подачей</p>
+  </section>
+
+  <section id="games" class="game-list">
+    <article class="game-card">
+      <img src="images/mafia-cover.jpg" alt="Mafia Old Country">
+      <h3>Mafia Old Country — Часть 7</h3>
+      <p>Disgrazia — прохождение с атмосферой Сицилии 1905 года</p>
+      <a href="mafia.html" class="btn">Смотреть</a>
+    </article>
+
+    <article class="game-card">
+      <img src="images/game2.jpg" alt="GTA IV">
+      <h3>GTA IV</h3>
+      <p>История Нико Беллика — тёмные улицы Либерти-Сити</p>
+      <a href="gta4.html" class="btn">Смотреть</a>
+    </article>
+
+    <article class="game-card">
+      <img src="images/game3.jpg" alt="Mafia II">
+      <h3>Mafia II</h3>
+      <p>Вито Скалетта и мафиозные интриги 40–50-х годов</p>
+      <a href="mafia2.html" class="btn">Смотреть</a>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Ruban — Все права защищены</p>
+</footer>
+
+</body>
+</html>
